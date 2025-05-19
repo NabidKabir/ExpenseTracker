@@ -1,0 +1,17 @@
+@"
+# Python cache files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+*.venv
+
+# Django-specific ignores
+db.sqlite3
+.env
+
+# Node.js (React frontend)
+node_modules/
+*.log
+"@ | Out-File -Encoding utf8 .gitignore
